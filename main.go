@@ -11,7 +11,7 @@ func main() {
 	fmt.Printf("Hello, I'm %v and I'm an integer\n", 2)
 	fmt.Printf("Hello, I'm %d and I'm an integer\n", 2)
 
-	fmt.Println(2 + 5) // Expressões
+	fmt.Println(2.2 + 5) // Expressões
 
 	// Booleanos
 	fmt.Println(true)
