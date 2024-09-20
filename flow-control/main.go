@@ -18,7 +18,6 @@ func main() {
 		} else {
 			fmt.Printf("%d é impar\n", n)
 		}
-
 	}
 
 	// for (inicializacao); (condicao que precisa ser verdade); (incremento)
