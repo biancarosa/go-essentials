@@ -1,3 +1,3 @@
-module github.com/biancarosa/go-essentials/calc
+module calculadora
 
 go 1.22.6
