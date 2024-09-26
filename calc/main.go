@@ -3,10 +3,8 @@ package main
 import "fmt"
 
 func sum(a int, b int) int {
-	var result int
 	fmt.Printf("Somando %d + %d\n", a, b)
-	result = a + b
-	return result
+	return a + b
 }
 
 // func multiply() {}
