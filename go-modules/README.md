@@ -1,4 +1,4 @@
-# go-modules
+# github.com/biancarosa/go-essentials/go-modules
 
 ## Quando precisamos usar?
 
