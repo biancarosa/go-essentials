@@ -83,11 +83,11 @@ func (p *Pessoa) Envelhecer() {
 }
 
 func main() {
-    pessoa := Pessoa{Nome: "Bianca", Idade: 29, Cidade: "Rio de Janeiro"}
+    pessoa := Pessoa{Nome: "Marcela", Idade: 29, Cidade: "Rio de Janeiro"}
 
     // Chamando o método que altera a idade
     pessoa.Envelhecer()
-    fmt.Printf("%s agora tem %d anos.\n", pessoa.Nome, pessoa.Idade)  // Saída: Bianca agora tem 30 anos.
+    fmt.Printf("%s agora tem %d anos.\n", pessoa.Nome, pessoa.Idade)  // Saída: Marcela agora tem 30 anos.
 }
 ```
 
