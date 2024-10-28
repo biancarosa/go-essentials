@@ -2,6 +2,13 @@
 
 Para aplicar o que você aprendeu no curso, seguem algumas idéias de projeto:
 
+## JWT Encoder/Decode
+
+Crie uma aplicação que faça o encoding/decoding de JWT tokens: https://jwt.io usando HMACSHA256.
+
+- `go run . decode eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.XbPfbIHMI6arZ3Y922BhjWgQzWXcXNrz0ogtVhfEd2o secret`
+- `go run . encode '{"sub": "1234567890","name": "John Doe","iat": 1516239022}' secret`
+
 ## Calculadora
 
 A calculadora é um excelente projeto para manipular números e argumentos de linha de comando.
