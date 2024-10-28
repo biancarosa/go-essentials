@@ -2,7 +2,7 @@
 
 Para aplicar o que você aprendeu no curso, seguem algumas idéias de projeto:
 
-## JWT Encoder/Decode
+## JWT Encoder/Decoder
 
 Crie uma aplicação que faça o encoding/decoding de JWT tokens: https://jwt.io usando HMACSHA256.
 
