@@ -2,6 +2,8 @@
 
 Material escrito do curso Go Essentials.
 
+Para ter acesso basta entrar na [linuxtips.io](https://linuxtips.io) e fazer seu cadastro!
+
 ## Grade
 
 ### Modulo 1: Introdução
