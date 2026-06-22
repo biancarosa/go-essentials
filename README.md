@@ -1,22 +1,17 @@
 # Go Essentials
 
-Material escrito do curso Go Essentials.
+Material aberto do curso Go Essentials, organizado como e-book e publicado com GitBook.
 
-Para ter acesso basta entrar na [linuxtips.io](https://linuxtips.io) e fazer seu cadastro!
+- O conteúdo publicado está em [`book/`](./book/).
+- Os exemplos executáveis estão em [`examples/contact-book/`](./examples/contact-book/).
+- A edição anterior do curso está preservada na tag [`v0`](https://github.com/biancarosa/go-essentials/tree/v0).
 
-## Grade
+Todo o conteúdo explicativo está em português. Identificadores, pacotes, funções e variáveis de código usam inglês.
 
-### Modulo 1: Introdução
-- [Introdução - a linguagem de programação Go](./modulo-1/intro-linguagem.md)
-- [Seu ambiente de desenvolvimento](./modulo-1/intro-editor.md)
+## Desenvolvimento local
 
-### Modulo 2: Seu primeiro programa em Go & um pouco de Git
-- [Seu primeiro programa em Go](./modulo-2/1-intro-day1.md)
-- [Básico de Git](./modulo-2/2-basico-git.md)
-- [Tipos de dados em Go](./modulo-2/3-tipos-de-dados.md)
-- [Comentários em Go](./modulo-2/4-comentarios.md)
-- [Formatação em comandos Print](./modulo-2/5-formatacao-print.md)
-- [Resumo - Primeiros Passos em Go](./modulo-2/6-resumo-primeiros-passos.md)
+Os exemplos usam módulos Go independentes. Para validar todos:
 
-
-
+```bash
+find examples/contact-book -name go.mod -execdir go test ./... \;
+```
