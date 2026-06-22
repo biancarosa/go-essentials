@@ -21,7 +21,7 @@ Quebrar o programa faz parte do processo. Leia a mensagem do compilador, identif
 
 ## Exemplos executáveis
 
-O diretório [`examples/contact-book`](https://github.com/biancarosa/go-essentials/tree/master/examples/contact-book) contém um checkpoint para cada aula.
+O diretório [`examples/contact-book`](https://github.com/biancarosa/go-essentials/tree/main/examples/contact-book) contém um checkpoint para cada aula.
 
 Entre no diretório correspondente e execute:
 

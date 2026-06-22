@@ -37,4 +37,4 @@ A struct é fornecida como apoio nesta etapa. A Aula 5 explica como structs e sl
 
 Implemente também `addContact` e trate todo erro retornado por `findContactByID`.
 
-Confira o [exemplo completo da Aula 4](https://github.com/biancarosa/go-essentials/tree/master/examples/contact-book/04-functions).
+Confira o [exemplo completo da Aula 4](https://github.com/biancarosa/go-essentials/tree/main/examples/contact-book/04-functions).

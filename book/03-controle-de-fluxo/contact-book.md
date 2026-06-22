@@ -27,4 +27,4 @@ O objetivo ainda não é modelar o contato perfeitamente. Estamos praticando com
 
 Desafio: mantenha um segundo slice com os favoritos e conte quantos contatos possuem telefone vazio.
 
-Confira o [exemplo completo da Aula 3](https://github.com/biancarosa/go-essentials/tree/master/examples/contact-book/03-flow-control).
+Confira o [exemplo completo da Aula 3](https://github.com/biancarosa/go-essentials/tree/main/examples/contact-book/03-flow-control).

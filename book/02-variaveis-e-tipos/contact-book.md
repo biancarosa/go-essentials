@@ -31,4 +31,4 @@ O ID continua sendo uma `string` com formato de UUID. Isso nos permite trabalhar
 Telefone deve ser `string`, não `int`. Símbolos, espaços, zeros à esquerda e códigos de país fazem parte do valor.
 {% endhint %}
 
-Confira o [exemplo completo da Aula 2](https://github.com/biancarosa/go-essentials/tree/master/examples/contact-book/02-variables-and-types).
+Confira o [exemplo completo da Aula 2](https://github.com/biancarosa/go-essentials/tree/main/examples/contact-book/02-variables-and-types).

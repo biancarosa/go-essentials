@@ -25,4 +25,4 @@ O projeto não inclui banco de dados, HTTP ou interface interativa. Esses elemen
 - [ ] IDs duplicados e contatos inexistentes retornam erros.
 - [ ] O código está separado em pacotes.
 
-Use o [exemplo final](https://github.com/biancarosa/go-essentials/tree/master/examples/contact-book/06-final) apenas para comparar depois de concluir sua implementação.
+Use o [exemplo final](https://github.com/biancarosa/go-essentials/tree/main/examples/contact-book/06-final) apenas para comparar depois de concluir sua implementação.

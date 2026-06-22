@@ -36,4 +36,4 @@ Implemente:
 
 Na Aula 6, `ID` deixa de ser `string` e passa a ser `uuid.UUID`.
 
-Confira o [exemplo completo da Aula 5](https://github.com/biancarosa/go-essentials/tree/master/examples/contact-book/05-composite-types).
+Confira o [exemplo completo da Aula 5](https://github.com/biancarosa/go-essentials/tree/main/examples/contact-book/05-composite-types).

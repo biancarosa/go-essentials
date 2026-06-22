@@ -36,4 +36,4 @@ go run main.go
 
 O UUID é fixo por enquanto. Ele funciona apenas como um valor que identifica o contato; aprenderemos a gerá-lo na Aula 6.
 
-Confira o [exemplo completo da Aula 1](https://github.com/biancarosa/go-essentials/tree/master/examples/contact-book/01-first-program).
+Confira o [exemplo completo da Aula 1](https://github.com/biancarosa/go-essentials/tree/main/examples/contact-book/01-first-program).

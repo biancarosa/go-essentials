@@ -51,4 +51,4 @@ O store usa exatamente o mesmo tipo como chave:
 type Store map[uuid.UUID]model.Contact
 ```
 
-Confira o [projeto final executável](https://github.com/biancarosa/go-essentials/tree/master/examples/contact-book/06-final).
+Confira o [projeto final executável](https://github.com/biancarosa/go-essentials/tree/main/examples/contact-book/06-final).
