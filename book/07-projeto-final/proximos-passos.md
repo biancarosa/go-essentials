@@ -12,6 +12,4 @@ Depois de concluir o projeto, você pode evoluí-lo sem alterar os objetivos des
 
 Evite fazer tudo ao mesmo tempo. Escolha uma mudança pequena, defina o comportamento esperado e escreva o código necessário para ela.
 
-{% hint style="success" %}
-Se você consegue explicar cada pacote, tratar os erros e evoluir o projeto sem copiar o exemplo final, concluiu os objetivos do Go Essentials.
-{% endhint %}
+> **Conclusão:** Se você consegue explicar cada pacote, tratar os erros e evoluir o projeto sem copiar o exemplo final, concluiu os objetivos do Go Essentials.

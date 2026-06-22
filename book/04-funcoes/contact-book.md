@@ -31,9 +31,7 @@ func countFavorites(contacts []Contact) int {
 }
 ```
 
-{% hint style="info" %}
-A struct é fornecida como apoio nesta etapa. A Aula 5 explica como structs e slices funcionam.
-{% endhint %}
+> **Nota:** A struct é fornecida como apoio nesta etapa. A Aula 5 explica como structs e slices funcionam.
 
 Implemente também `addContact` e trate todo erro retornado por `findContactByID`.
 

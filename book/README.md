@@ -12,9 +12,7 @@ Ao concluir o livro, você saberá:
 - separar código em pacotes e gerenciar dependências com Go Modules;
 - gerar UUIDs e usá-los como identidade estável dos contatos.
 
-{% hint style="info" %}
-Este livro não exige banco de dados, framework web ou experiência anterior com Go. Os dados permanecem em memória para que o foco fique na linguagem.
-{% endhint %}
+> **Nota:** Este livro não exige banco de dados, framework web ou experiência anterior com Go. Os dados permanecem em memória para que o foco fique na linguagem.
 
 ## Projeto do curso
 

@@ -27,6 +27,4 @@ var (
 )
 ```
 
-{% hint style="warning" %}
-A iteração de maps não possui ordem garantida. `List` não deve prometer uma ordem específica sem ordenar explicitamente o resultado.
-{% endhint %}
+> **Atenção:** A iteração de maps não possui ordem garantida. `List` não deve prometer uma ordem específica sem ordenar explicitamente o resultado.

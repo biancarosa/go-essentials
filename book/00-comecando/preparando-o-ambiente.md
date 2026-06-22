@@ -2,23 +2,21 @@
 
 Você precisa do Go, de um editor e de um terminal.
 
-{% tabs %}
-{% tab title="macOS" %}
+## macOS
+
 Baixe o instalador em [go.dev/dl](https://go.dev/dl/) ou use Homebrew:
 
 ```bash
 brew install go
 ```
-{% endtab %}
 
-{% tab title="Windows" %}
+## Windows
+
 Baixe o instalador em [go.dev/dl](https://go.dev/dl/) e siga o assistente. Depois, abra um novo PowerShell.
-{% endtab %}
 
-{% tab title="Linux" %}
+## Linux
+
 Siga as instruções da [documentação oficial](https://go.dev/doc/install) para instalar a versão atual.
-{% endtab %}
-{% endtabs %}
 
 Confirme a instalação:
 

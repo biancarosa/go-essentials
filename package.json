@@ -1,0 +1,16 @@
+{
+  "name": "go-essentials-book",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Go Essentials course book",
+  "scripts": {
+    "build": "honkit build ./book ./../_book",
+    "serve": "honkit serve ./book"
+  },
+  "devDependencies": {
+    "honkit": "6.2.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

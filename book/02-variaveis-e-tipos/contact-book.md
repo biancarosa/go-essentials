@@ -27,8 +27,6 @@ func main() {
 
 O ID continua sendo uma `string` com formato de UUID. Isso nos permite trabalhar com o valor antes de aprender dependências externas.
 
-{% hint style="warning" %}
-Telefone deve ser `string`, não `int`. Símbolos, espaços, zeros à esquerda e códigos de país fazem parte do valor.
-{% endhint %}
+> **Atenção:** Telefone deve ser `string`, não `int`. Símbolos, espaços, zeros à esquerda e códigos de país fazem parte do valor.
 
 Confira o [exemplo completo da Aula 2](https://github.com/biancarosa/go-essentials/tree/main/examples/contact-book/02-variables-and-types).

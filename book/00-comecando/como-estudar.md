@@ -7,9 +7,7 @@ Use cada aula em quatro passos:
 3. Evolua o Contact Book conforme a etapa do capítulo.
 4. Responda às perguntas de prática sem consultar a explicação primeiro.
 
-{% hint style="success" %}
-Quebrar o programa faz parte do processo. Leia a mensagem do compilador, identifique o arquivo e a linha e tente explicar o erro antes de corrigi-lo.
-{% endhint %}
+> **Dica:** Quebrar o programa faz parte do processo. Leia a mensagem do compilador, identifique o arquivo e a linha e tente explicar o erro antes de corrigi-lo.
 
 ## Convenções do livro
 
