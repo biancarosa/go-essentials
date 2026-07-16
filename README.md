@@ -30,6 +30,7 @@ Use estas configurações ao conectar o repositório ao Cloudflare Pages:
 - Branch de produção: `main`
 - Comando de build: `npm run build`
 - Diretório de saída: `_book`
+- Variável de ambiente opcional: `GOOGLE_ANALYTICS_ID=G-XXXXXXXXXX`
 
 Os exemplos usam módulos Go independentes. Para validar todos:
 

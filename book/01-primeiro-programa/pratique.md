@@ -25,8 +25,3 @@ func main() {
 2. O que acontece se removermos a linha `fmt.Println(message)`?
 3. O que acontece se removermos o `import "fmt"` mas mantivermos `fmt.Println`?
 
-## Pensando na agenda
-
-1. Que informações mínimas, incluindo o UUID, um contato precisa ter para aparecer no primeiro programa?
-2. Por que começar com contatos fixos no código é suficiente nesta aula?
-3. Como você mudaria a saída para mostrar dois contatos em vez de um?

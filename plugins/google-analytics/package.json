@@ -1,0 +1,10 @@
+{
+  "name": "gitbook-plugin-google-analytics",
+  "version": "1.0.0",
+  "description": "Google Analytics integration for the Go Essentials HonKit book.",
+  "main": "index.js",
+  "engines": {
+    "honkit": ">=6.0.0"
+  },
+  "private": true
+}

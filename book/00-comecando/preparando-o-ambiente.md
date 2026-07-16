@@ -27,7 +27,7 @@ go env
 
 ## Editor
 
-Recomendamos o Visual Studio Code com a extensão oficial **Go**, publicada pela Go Team at Google. A extensão oferece formatação, autocomplete, análise estática e integração com o debugger.
+Recomendamos o Visual Studio Code com a extensão oficial **Go** (publicada por `Go Team at Google`). A extensão oferece formatação, autocomplete, análise estática e integração com o debugger.
 
 ## Checklist
 
