@@ -6,7 +6,6 @@ import (
 )
 
 type Contact struct {
-	ID       string
 	Name     string
 	Email    string
 	Phone    string
@@ -17,9 +16,9 @@ func addContact(contacts []Contact, contact Contact) []Contact {
 	return append(contacts, contact)
 }
 
-func findContactByID(contacts []Contact, id string) (Contact, error) {
+func findContactByEmail(contacts []Contact, email string) (Contact, error) {
 	for _, contact := range contacts {
-		if contact.ID == id {
+		if contact.Email == email {
 			return contact, nil
 		}
 	}
@@ -39,14 +38,13 @@ func countFavorites(contacts []Contact) int {
 func main() {
 	contacts := []Contact{}
 	contacts = addContact(contacts, Contact{
-		ID:       "550e8400-e29b-41d4-a716-446655440000",
 		Name:     "Bia",
 		Email:    "bia@example.com",
 		Phone:    "+55 21 99999-9999",
 		Favorite: true,
 	})
 
-	contact, err := findContactByID(contacts, "550e8400-e29b-41d4-a716-446655440000")
+	contact, err := findContactByEmail(contacts, "bia@example.com")
 	if err != nil {
 		log.Fatal(err)
 	}

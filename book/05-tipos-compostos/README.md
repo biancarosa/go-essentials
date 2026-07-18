@@ -8,12 +8,11 @@
 ## Continuidade do mini-projeto
 Evolução do Contact Book:
 - `Contact` agrupa os dados de um contato;
-- `map[string]Contact` usa o UUID textual como chave primária lógica;
+- `map[string]Contact` usa o email como chave temporária;
 - funções de listagem transformam os valores do map em `[]Contact`.
 
 ```go
 type Contact struct {
-    ID       string
     Name     string
     Email    string
     Phone    string
@@ -22,13 +21,12 @@ type Contact struct {
 
 contacts := make(map[string]Contact)
 contact := Contact{
-    ID:       "550e8400-e29b-41d4-a716-446655440000",
     Name:     "Bia",
     Email:    "bia@example.com",
     Phone:    "+55 21 99999-9999",
     Favorite: true,
 }
-contacts[contact.ID] = contact
+contacts[contact.Email] = contact
 ```
 
 ## Pontos da aula
@@ -44,15 +42,15 @@ contacts[contact.ID] = contact
 ## Exercício prático
 Refatore o Contact Book para:
 1. representar contatos com `Contact`;
-2. armazená-los em `map[string]Contact` usando `Contact.ID` como chave;
-3. implementar `findByID` e `removeByID`.
+2. armazená-los em `map[string]Contact` usando `Contact.Email` como chave temporária;
+3. implementar `findByEmail` e `removeByEmail`.
 
 ### Entrega esperada
 - `list` retorna os contatos em um slice.
 - Map inicializado com `make`.
-- Busca por ID feita diretamente no map.
+- Busca por email feita diretamente no map.
 
 ### Desafio extra (opcional)
-Implementar `findByEmail` como busca secundária, sem transformar email em chave primária.
+Implementar `listFavorites` retornando apenas contatos favoritos.
 
 Continue em [Contact Book: armazenamento](contact-book.md).

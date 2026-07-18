@@ -16,11 +16,10 @@ Ao concluir o livro, você saberá:
 
 ## Projeto do curso
 
-O projeto contínuo é um Contact Book. Cada contato possui:
+O projeto contínuo é um Contact Book. Nas primeiras aulas, cada contato começa com dados simples:
 
 ```go
 type Contact struct {
-    ID       uuid.UUID
     Name     string
     Email    string
     Phone    string
@@ -28,6 +27,6 @@ type Contact struct {
 }
 ```
 
-Nas primeiras aulas, os UUIDs são fornecidos como strings fixas. Na última aula, você aprende módulos e dependências, passa a gerar IDs com `github.com/google/uuid` e usa `map[uuid.UUID]Contact` como armazenamento.
+Na última aula, você aprende módulos e dependências, adiciona um ID estável com `github.com/google/uuid` e passa a usar `map[uuid.UUID]Contact` como armazenamento.
 
 Comece por [Como estudar](00-comecando/como-estudar.md).

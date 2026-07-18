@@ -40,7 +40,7 @@ phone, ok := phones["Ana"]
 ## Pensando na agenda
 
 1. Quando faz sentido retornar contatos em `[]Contact`?
-2. Por que `map[string]Contact` é adequado enquanto o UUID ainda é representado como string?
-3. Por que `Contact.ID`, e não `Email`, deve ser a chave do map?
+2. Por que `map[string]Contact` é adequado para usar email como chave temporária?
+3. Que limitação existe em usar email como chave do map?
 4. Como evitar `assignment to entry in nil map`?
-5. O que muda na Aula 6 quando a chave passa para `uuid.UUID`?
+5. O que muda na Aula 6 quando o projeto passa a ter `ID uuid.UUID`?

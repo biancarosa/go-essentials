@@ -33,4 +33,4 @@ for i, name := range contacts {
 2. Que regra com `if/else` poderia detectar `Phone == ""`?
 3. Que classificação com `switch` faria sentido para uma agenda simples?
 4. Como evitar `index out of range` ao acessar um contato por posição?
-5. Por que buscar por UUID em um map não depende da posição do contato?
+5. Por que buscar por uma chave em um map não depende da posição do contato?

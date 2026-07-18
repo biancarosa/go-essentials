@@ -4,16 +4,15 @@ As regras do projeto começam a sair de `main` e ganhar nomes próprios.
 
 ```go
 type Contact struct {
-    ID       string
     Name     string
     Email    string
     Phone    string
     Favorite bool
 }
 
-func findContactByID(contacts []Contact, id string) (Contact, error) {
+func findContactByEmail(contacts []Contact, email string) (Contact, error) {
     for _, contact := range contacts {
-        if contact.ID == id {
+        if contact.Email == email {
             return contact, nil
         }
     }
@@ -33,6 +32,6 @@ func countFavorites(contacts []Contact) int {
 
 > **Nota:** A struct é fornecida como apoio nesta etapa. A Aula 5 explica como structs e slices funcionam.
 
-Implemente também `addContact` e trate todo erro retornado por `findContactByID`.
+Implemente também `addContact` e trate todo erro retornado por `findContactByEmail`.
 
 Confira o [exemplo completo da Aula 4](https://github.com/biancarosa/go-essentials/tree/main/examples/contact-book/04-functions).

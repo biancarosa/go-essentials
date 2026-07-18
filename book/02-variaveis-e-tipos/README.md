@@ -6,10 +6,9 @@
 - Usar tipos básicos sem cair nas pegadinhas de string.
 
 ## Continuidade do mini-projeto
-Agora o Contact Book passa a representar cada dado com uma variável. Até a Aula 5, o UUID fica em uma `string`; a geração automática será adicionada na Aula 6.
+Agora o Contact Book passa a representar cada dado com uma variável. O ID fica para depois, quando a gente introduzir módulos e a dependência de UUID.
 
 ```go
-contactID := "550e8400-e29b-41d4-a716-446655440000"
 contactName := "Bia"
 contactEmail := "bia@example.com"
 contactPhone := "+55 21 99999-9999"
@@ -42,7 +41,6 @@ Mostre:
 
 ### Entrega esperada
 - Código compila sem warnings/erros.
-- Cada contato possui um UUID fixo e diferente.
 - Usa pelo menos 1 constante e 1 contador.
 
 ### Desafio extra (opcional)

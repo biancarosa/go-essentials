@@ -9,7 +9,6 @@ import (
 var errContactNotFound = errors.New("contact not found")
 
 type Contact struct {
-	ID       string
 	Name     string
 	Email    string
 	Phone    string
@@ -19,11 +18,11 @@ type Contact struct {
 type Store map[string]Contact
 
 func addContact(store Store, contact Contact) {
-	store[contact.ID] = contact
+	store[contact.Email] = contact
 }
 
-func findContactByID(store Store, id string) (Contact, error) {
-	contact, ok := store[id]
+func findContactByEmail(store Store, email string) (Contact, error) {
+	contact, ok := store[email]
 	if !ok {
 		return Contact{}, errContactNotFound
 	}
@@ -38,18 +37,17 @@ func listContacts(store Store) []Contact {
 	return contacts
 }
 
-func removeContactByID(store Store, id string) error {
-	if _, ok := store[id]; !ok {
+func removeContactByEmail(store Store, email string) error {
+	if _, ok := store[email]; !ok {
 		return errContactNotFound
 	}
-	delete(store, id)
+	delete(store, email)
 	return nil
 }
 
 func main() {
 	store := make(Store)
 	contact := Contact{
-		ID:       "550e8400-e29b-41d4-a716-446655440000",
 		Name:     "Bia",
 		Email:    "bia@example.com",
 		Phone:    "+55 21 99999-9999",
@@ -57,7 +55,7 @@ func main() {
 	}
 	addContact(store, contact)
 
-	found, err := findContactByID(store, contact.ID)
+	found, err := findContactByEmail(store, contact.Email)
 	if err != nil {
 		log.Fatal(err)
 	}

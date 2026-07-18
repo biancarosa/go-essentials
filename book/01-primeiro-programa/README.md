@@ -15,6 +15,6 @@ Criar um arquivo `main.go` e rodar no seu ambiente local.
 
 ### Entrega esperada
 - O comando `go run main.go` executa sem erro.
-- A saída mostra título, contatos e versão do Go.
+- A saída mostra título, contato e versão do Go.
 
 Continue em [Contact Book: primeiro contato](contact-book.md).

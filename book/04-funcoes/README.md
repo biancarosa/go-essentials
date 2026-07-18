@@ -8,12 +8,12 @@
 ## Continuidade do mini-projeto
 Extrair operações para funções com identificadores em inglês:
 - `addContact(...)`
-- `findContactByID(...)`
+- `findContactByEmail(...)`
 - `countFavorites(...)`
 
 Exemplo de assinatura:
 ```go
-func findContactByID(contacts []Contact, id string) (Contact, error)
+func findContactByEmail(contacts []Contact, email string) (Contact, error)
 ```
 
 ## Pontos da aula
@@ -30,7 +30,7 @@ func findContactByID(contacts []Contact, id string) (Contact, error)
 ## Exercício prático
 Implementar funções para o Contact Book:
 1. Adicionar contato em um slice.
-2. Buscar por ID.
+2. Buscar por email.
 3. Listar apenas nomes com retorno `[]string`.
 
 ### Entrega esperada

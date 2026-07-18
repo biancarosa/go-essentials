@@ -40,7 +40,7 @@ Evite travar exemplos didáticos em uma versão específica antiga (ex.: `go 1.2
 - `undefined: pacote.Funcao` por tentar acessar item não exportado
 
 ## Exercício prático
-Estruture o Contact Book com os pacotes `model` e `contactbook` + `main`, seguindo o [projeto final](../07-projeto-final/README.md). Troque o tipo de `Contact.ID` de `string` para `uuid.UUID`, gere IDs com `uuid.New()` e use `map[uuid.UUID]model.Contact` como store.
+Estruture o Contact Book com os pacotes `model` e `contactbook` + `main`, seguindo o [projeto final](../07-projeto-final/README.md). Adicione `ID uuid.UUID` em `Contact`, gere IDs com `uuid.New()` e troque a chave temporária por `map[uuid.UUID]model.Contact`.
 
 ### Entrega esperada
 - `go run .` funciona na raiz do projeto.
